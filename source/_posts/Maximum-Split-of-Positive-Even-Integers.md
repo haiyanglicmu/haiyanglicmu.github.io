@@ -4,8 +4,6 @@ date: 2024-01-22 22:12:10
 tags:
 mathjax: true
 ---
-# Maximum Split of Positive Even Integers
-
 You are given an integer `finalSum`. Split it into a sum of a **maximum** number of **unique** positive even integers.
 
 For example, given `finalSum = 12`, the following splits are **valid**: `(12)`, `(2 + 10)`, `(2 + 4 + 6)`, and `(4 + 8)`. Among them, `(2 + 4 + 6)` contains the maximum number of integers. Note that `finalSum` cannot be split into `(2 + 2 + 4 + 4)` as all the numbers should be unique.
