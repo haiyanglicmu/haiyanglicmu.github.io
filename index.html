@@ -1,1 +1,113 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1,user-scalable=no"><meta name="renderer" content="webkit"><meta name="color-scheme" content="dark light"><meta name="author" content="Haiyang Li"><meta name="description" content="yet another tech blog"><meta name="keywords" content=""><title>Haiyang's Homepage</title><link rel="icon" type="image/x-icon" href="/images/favicon.ico"><link rel="stylesheet" href="//at.alicdn.com/t/font_3242539_utq6ykfq7z.css"><link rel="stylesheet" light-src="https://cdn.staticfile.org/highlight.js/11.5.0/styles/github.min.css" dark-src="https://cdn.staticfile.org/highlight.js/11.5.0/styles/github-dark.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif" as="font"><link href="/style/index.css" rel="stylesheet"><meta name="generator" content="Hexo 7.1.1"></head><body><header class="page-header"><nav><ul class="router-list"><li class="nav-item"> <a href="/">主页</a></li><li class="nav-item"> <a href="/archives/">归档</a></li><li class="nav-item"> <a href="/atom.xml">RSS</a></li></ul><div class="mode-switch"><span class="iconfont icon-DarkTheme"></span></div></nav><ul class="social-list"><li class="social-item"><a target="_blank" rel="noopener" href="https://github.com/haiyanglicmu"><span class="iconfont icon-github"></span></a></li><li class="social-item"><a href="mailto:haiyanglicmu@gmail.com"><span class="iconfont icon-mail"></span></a></li></ul></header><main><section class="main-content"><section class="home-page main-container"><ul class="article-list"><li class="article-list-item"><div><a class="article-title" href="/2024/01/22/Maximum-Split-of-Positive-Even-Integers/" title="Maximum Split of Positive Even Integers">Maximum Split of Positive Even Integers</a></div><div class="article-preview">Maximum Split of Positive Even IntegersYou are given an integer finalSum. Split it into a sum of ...</div><div class="article-time">2024-01-22</div></li><li class="article-list-item"><div><a class="article-title" href="/2024/01/22/hello-world/" title="Hello World">Hello World</a></div><div class="article-preview">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any ...</div><div class="article-time">2024-01-22</div></li></ul></section></section></main><footer class="footer-page"><div><span>Powered by</span><a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a><span>| Theme</span><a target="_blank" rel="noopener" href="https://github.com/techmovie/hexo-theme-instapaper">instapaper</a></div></footer><script src="/scripts/dark.js"></script></body></html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1,user-scalable=no"><meta name="renderer" content="webkit"><meta name="color-scheme" content="dark light"><meta name="author" content="Haiyang Li"><meta name="description" content="yet another tech blog"><meta name="keywords" content=""><title>Haiyang's Homepage</title><link rel="icon" type="image/x-icon" href="/images/favicon.ico"><link rel="stylesheet" href="//at.alicdn.com/t/font_3242539_utq6ykfq7z.css"><link rel="stylesheet" light-src="https://cdn.staticfile.org/highlight.js/11.5.0/styles/github.min.css" dark-src="https://cdn.staticfile.org/highlight.js/11.5.0/styles/github-dark.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif" as="font"><link href="/style/index.css" rel="stylesheet"><meta name="generator" content="Hexo 7.1.1"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head><body><header class="page-header"><nav><ul class="router-list"><li class="nav-item"> <a href="/">主页</a></li><li class="nav-item"> <a href="/archives/">归档</a></li><li class="nav-item"> <a href="/atom.xml">RSS</a></li></ul><div class="mode-switch"><span class="iconfont icon-DarkTheme"></span></div></nav><ul class="social-list"><li class="social-item"><a target="_blank" rel="noopener" href="https://github.com/haiyanglicmu"><span class="iconfont icon-github"></span></a></li><li class="social-item"><a href="mailto:haiyanglicmu@gmail.com"><span class="iconfont icon-mail"></span></a></li></ul></header><main><section class="main-content"><section class="home-page main-container"><ul class="article-list"><li class="article-list-item"><div><a class="article-title" href="/2024/01/22/Maximum-Split-of-Positive-Even-Integers/" title="Maximum Split of Positive Even Integers">Maximum Split of Positive Even Integers</a></div><div class="article-preview">Maximum Split of Positive Even IntegersYou are given an integer finalSum. Split it into a sum of ...</div><div class="article-time">2024-01-22</div></li><li class="article-list-item"><div><a class="article-title" href="/2024/01/22/hello-world/" title="Hello World">Hello World</a></div><div class="article-preview">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any ...</div><div class="article-time">2024-01-22</div></li></ul></section></section></main><footer class="footer-page"><div><span>Powered by</span><a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a><span>| Theme</span><a target="_blank" rel="noopener" href="https://github.com/techmovie/hexo-theme-instapaper">instapaper</a></div></footer><script src="/scripts/dark.js"></script></body></html>
