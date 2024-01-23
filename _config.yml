@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 鱼
+title: 🐟
 subtitle: ''
 description: 'yet another tech blog'
 keywords:
@@ -45,11 +45,14 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
+  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
-  wrap: true
-  hljs: false
+  wrap: false
+  hljs: true
+  light: https://cdn.staticfile.org/highlight.js/11.5.0/styles/github.min.css
+  dark: https://cdn.staticfile.org/highlight.js/11.5.0/styles/github-dark.min.css
 prismjs:
   preprocess: true
   line_number: true
@@ -96,7 +99,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: instapaper
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,3 +108,8 @@ deploy:
   repo: https://github.com/haiyanglicmu/haiyanglicmu.github.io
   branch: [gh-pages]
 
+socialList:
+  - name: github
+    url: https://github.com/haiyanglicmu
+  - name: mail
+    url: mailto:haiyanglicmu@gmail.com
