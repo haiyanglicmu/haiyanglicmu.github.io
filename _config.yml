@@ -46,9 +46,8 @@ future: true
 syntax_highlighter: highlight.js
 highlight:
   enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
+  line_number: false
+  auto_detect: true
   wrap: false
   hljs: true
 prismjs:
@@ -115,3 +114,14 @@ copyright:
   enable: true
   license: '本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可'
 
+mathjax:
+  tags: none # or 'ams' or 'all'
+  single_dollars: false # enable single dollar signs as in-line math delimiters
+  cjk_width: 0.9 # relative CJK char width
+  normal_width: 0.6 # relative normal (monospace) width
+  append_css: true # add CSS to pages rendered by MathJax
+  every_page: false # if true, every page will be rendered by MathJax regardless the `mathjax` setting in Front-matter
+  packages: # extra packages to load
+  extension_options: {}
+    # you can put your extension options here
+    # see http://docs.mathjax.org/en/latest/options/input/tex.html#tex-extension-options for more detail

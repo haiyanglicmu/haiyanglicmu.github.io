@@ -2,6 +2,7 @@
 title: Maximum Split of Positive Even Integers
 date: 2024-01-22 22:12:10
 tags:
+mathjax: true
 ---
 # Maximum Split of Positive Even Integers
 
