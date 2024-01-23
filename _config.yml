@@ -51,8 +51,6 @@ highlight:
   tab_replace: ''
   wrap: false
   hljs: true
-  light: https://cdn.staticfile.org/highlight.js/11.5.0/styles/github.min.css
-  dark: https://cdn.staticfile.org/highlight.js/11.5.0/styles/github-dark.min.css
 prismjs:
   preprocess: true
   line_number: true
